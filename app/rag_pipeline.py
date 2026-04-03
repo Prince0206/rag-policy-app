@@ -14,10 +14,10 @@ class RAGPipeline:
     """Main RAG pipeline that orchestrates retrieval and generation."""
 
     def __init__(self, top_k: int = None, use_reranker: bool = True):
-        self.retriever = PolicyRetriever(
-            top_k=top_k,
-            use_reranker=use_reranker,
-        )
+        kwargs = {"use_reranker": use_reranker}
+        if top_k is not None:
+            kwargs["top_k"] = top_k
+        self.retriever = PolicyRetriever(**kwargs)
 
     def query(self, question: str) -> dict:
         """Process a user question through the full RAG pipeline.

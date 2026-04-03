@@ -16,7 +16,7 @@ np.random.seed(RANDOM_SEED)
 # OpenRouter API configuration
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
-LLM_MODEL = os.getenv("LLM_MODEL", "google/gemini-2.0-flash-exp:free")
+LLM_MODEL = os.getenv("LLM_MODEL", "google/gemma-3-4b-it:free")
 
 # Embedding model configuration (local, free via sentence-transformers)
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")

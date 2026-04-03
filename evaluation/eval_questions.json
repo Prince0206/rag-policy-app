@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "question": "How many PTO days does a new employee get per year?",
+    "expected_answer": "15 days per year for employees with 0-2 years of service",
+    "topic": "PTO",
+    "relevant_docs": ["POL-001"]
+  },
+  {
+    "id": 2,
+    "question": "What is the maximum PTO accrual cap?",
+    "expected_answer": "1.5 times the annual PTO allotment",
+    "topic": "PTO",
+    "relevant_docs": ["POL-001"]
+  },
+  {
+    "id": 3,
+    "question": "How many sick days do employees receive?",
+    "expected_answer": "10 paid sick days per calendar year",
+    "topic": "PTO",
+    "relevant_docs": ["POL-001"]
+  },
+  {
+    "id": 4,
+    "question": "How long is paid parental leave for birth parents?",
+    "expected_answer": "16 weeks at 100% of base salary",
+    "topic": "PTO",
+    "relevant_docs": ["POL-001"]
+  },
+  {
+    "id": 5,
+    "question": "How many paid holidays does the company observe per year?",
+    "expected_answer": "14 paid holidays per year plus 2 floating holidays",
+    "topic": "Holidays",
+    "relevant_docs": ["POL-002"]
+  },
+  {
+    "id": 6,
+    "question": "What happens when a holiday falls on a Saturday?",
+    "expected_answer": "The preceding Friday will be observed",
+    "topic": "Holidays",
+    "relevant_docs": ["POL-002"]
+  },
+  {
+    "id": 7,
+    "question": "What are the core hours for flexible work?",
+    "expected_answer": "10:00 AM to 3:00 PM local time",
+    "topic": "Remote Work",
+    "relevant_docs": ["POL-003"]
+  },
+  {
+    "id": 8,
+    "question": "What is the minimum internet speed required for remote work?",
+    "expected_answer": "25 Mbps download",
+    "topic": "Remote Work",
+    "relevant_docs": ["POL-003"]
+  },
+  {
+    "id": 9,
+    "question": "How much is the monthly home office stipend for fully remote employees?",
+    "expected_answer": "$150 per month",
+    "topic": "Remote Work",
+    "relevant_docs": ["POL-003"]
+  },
+  {
+    "id": 10,
+    "question": "What is the mileage reimbursement rate for personal vehicle use?",
+    "expected_answer": "$0.67 per mile",
+    "topic": "Expenses",
+    "relevant_docs": ["POL-004"]
+  },
+  {
+    "id": 11,
+    "question": "What is the maximum nightly hotel rate for Tier 1 cities?",
+    "expected_answer": "$300 per night",
+    "topic": "Expenses",
+    "relevant_docs": ["POL-004"]
+  },
+  {
+    "id": 12,
+    "question": "How much can employees spend on professional development conferences per year?",
+    "expected_answer": "Up to $2,000 per year with pre-approval from manager",
+    "topic": "Expenses",
+    "relevant_docs": ["POL-004"]
+  },
+  {
+    "id": 13,
+    "question": "What are the password requirements for company systems?",
+    "expected_answer": "Minimum 14 characters, must include uppercase, lowercase, numbers, and special characters, changed every 90 days",
+    "topic": "Security",
+    "relevant_docs": ["POL-005"]
+  },
+  {
+    "id": 14,
+    "question": "How quickly must critical security incidents be responded to?",
+    "expected_answer": "15 minutes",
+    "topic": "Security",
+    "relevant_docs": ["POL-005"]
+  },
+  {
+    "id": 15,
+    "question": "What is the company's policy on accepting gifts over $200?",
+    "expected_answer": "Gifts over $200 must be declined or donated to the company charity fund",
+    "topic": "Code of Conduct",
+    "relevant_docs": ["POL-006"]
+  },
+  {
+    "id": 16,
+    "question": "What rating scale is used for performance reviews?",
+    "expected_answer": "A 5-point scale from 1 (Unsatisfactory) to 5 (Exceptional)",
+    "topic": "Performance",
+    "relevant_docs": ["POL-007"]
+  },
+  {
+    "id": 17,
+    "question": "What is the typical merit increase for a rating of 5 (Exceptional)?",
+    "expected_answer": "6-8% merit increase with a 1.5x bonus multiplier",
+    "topic": "Performance",
+    "relevant_docs": ["POL-007"]
+  },
+  {
+    "id": 18,
+    "question": "How long is the probationary period for new employees?",
+    "expected_answer": "90 days",
+    "topic": "Onboarding",
+    "relevant_docs": ["POL-008"]
+  },
+  {
+    "id": 19,
+    "question": "What notice period is expected for employee resignations?",
+    "expected_answer": "2 weeks for regular employees, 4 weeks for managers and directors",
+    "topic": "Offboarding",
+    "relevant_docs": ["POL-008"]
+  },
+  {
+    "id": 20,
+    "question": "What is the company's 401(k) match?",
+    "expected_answer": "100% of first 4% of salary plus 50% of next 2%, up to 5% total employer contribution",
+    "topic": "Benefits",
+    "relevant_docs": ["POL-011"]
+  },
+  {
+    "id": 21,
+    "question": "How much tuition reimbursement is available per year?",
+    "expected_answer": "$5,250 per calendar year",
+    "topic": "Benefits",
+    "relevant_docs": ["POL-011"]
+  },
+  {
+    "id": 22,
+    "question": "How long are employee records retained after separation?",
+    "expected_answer": "7 years after separation",
+    "topic": "Data Privacy",
+    "relevant_docs": ["POL-012"]
+  },
+  {
+    "id": 23,
+    "question": "Within how many hours must regulatory authorities be notified of a data breach?",
+    "expected_answer": "72 hours where required by law",
+    "topic": "Data Privacy",
+    "relevant_docs": ["POL-012"]
+  },
+  {
+    "id": 24,
+    "question": "What travel class is allowed for international flights over 10 hours?",
+    "expected_answer": "Business Class",
+    "topic": "Travel",
+    "relevant_docs": ["POL-013"]
+  },
+  {
+    "id": 25,
+    "question": "How much is the bonus for a patent filing?",
+    "expected_answer": "$2,000 upon patent filing and an additional $3,000 upon patent grant",
+    "topic": "IP",
+    "relevant_docs": ["POL-014"]
+  }
+]
